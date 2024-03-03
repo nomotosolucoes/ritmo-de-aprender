@@ -1,0 +1,12 @@
+{:paths ["src"]
+ :deps {io.github.babashka/sci {:git/sha "ad79a6c476affd1f8208efbfdba57992a68c8056"}
+        io.github.babashka/sci.configs {:git/sha "3cd48a595bace287554b1735bb378bad1d22b931"}
+        io.github.green-coder/girouette {:git/sha "177152568c2df8f3b77cbe1648fb9c74ad949011"
+                                         :deps/root "lib/girouette"}
+        metosin/reitit {:mvn/version "0.7.0-alpha7"}
+        hoplon/hoplon {:mvn/version "7.5.0"}
+        io.github.nextjournal/markdown {:mvn/version "0.5.148"}
+        binaryage/devtools {:mvn/version "1.0.7"}
+        thheller/shadow-cljs {:mvn/version "2.26.5"}
+        funcool/promesa {:git/url "https://github.com/funcool/promesa"
+                         :git/sha "e503874b154224ce85b223144e80b697df91d18e"}}}

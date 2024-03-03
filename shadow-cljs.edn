@@ -1,0 +1,12 @@
+{:deps     true
+ :dev-http {8000 "docs"}
+ :builds   {:app {
+                  :target     :browser
+                  :output-dir "docs/js"
+                  :asset-path "/js"
+                  :compiler-options {:output-feature-set :es8
+                                     :optimizations :advanced
+                                     :source-map true
+                                     :output-wrapper false}
+                  :modules    {:main {:init-fn aprender.main/init}}
+                  :devtools   {:after-load aprender.main/reload}}}}
