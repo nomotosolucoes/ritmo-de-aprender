@@ -570,7 +570,7 @@
       :definicoes (lesson-description->view clojure/definicoes)
       :sigla (lesson-description->view clojure/sigla)
       :test (lesson-description->view teste))
-    (debug)))
+    #_(debug)))
 
 
 (defn log-fn
